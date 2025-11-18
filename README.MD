@@ -1,12 +1,12 @@
-# 🤖 Orientador de Carreiras do Futuro
+#  Orientador de Carreiras do Futuro
 
-## 🎯 Propósito do Projeto
+##  Propósito do Projeto
 
 O **Orientador de Carreiras do Futuro** é um sistema desenvolvido em Python com foco em Programação Orientada a Objetos (POO). Sua missão é simular uma ferramenta inteligente de orientação de carreiras, analisando perfis profissionais com base em competências técnicas e comportamentais (soft & hard skills) relevantes para o mercado de trabalho emergente.
 
 Este projeto conecta a lógica de programação e a automação ao desenvolvimento humano e profissional, estimulando a criação de soluções que preparam pessoas para os desafios e oportunidades do futuro.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 * **Criação de Perfil:** O usuário pode criar um perfil pessoal avaliando seu nível (1-5) em diversas competências-chave, como "Lógica", "Criatividade", "Colaboração", "IA/ML", etc.
 * **Banco de Carreiras:** O sistema possui um "banco de dados" simulado com profissões do futuro (ex: "Engenheiro de IA Ética", "Designer de Realidade Mista").
@@ -24,7 +24,7 @@ Este projeto conecta a lógica de programação e a automação ao desenvolvimen
     * **Dicionários:** Usados extensivamente para armazenar as competências e seus respectivos níveis dentro dos objetos `Perfil` e `Carreira`.
 * **Modularidade:** O código é organizado em pacotes e módulos (`models`, `core`, `database`).
 
-## 📁 Estrutura de Arquivos e Classes
+##  Estrutura de Arquivos e Classes
 
 O projeto está organizado da seguinte forma:
 
@@ -56,7 +56,7 @@ orientador_carreiras/
     * **Atributos:** `lista_carreiras` (list)
     * **Métodos:** `calcular_compatibilidade(perfil)` (função principal que processa e gera as recomendações).
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
 1.  **Clone o Repositório:**
     ```bash
@@ -103,15 +103,15 @@ Opção: 1
 Analisando seu perfil contra as carreiras do futuro...
 
 ----------------------------------------------------
-🌟 Carreira: Gestor(a) de Colaboração Humano-Máquina (Match: 75.0%)
+ Carreira: Gestor(a) de Colaboração Humano-Máquina (Match: 75.0%)
    Descrição: Otimiza a interação e colaboração entre equipes humanas e 'colegas' de IA.
-   🌱 Trilhas de Aprimoramento (1):
+    Trilhas de Aprimoramento (1):
       - Colaboracao (Necessário: 5 / Atual: 4)
 
 ----------------------------------------------------
-🌟 Carreira: Engenheiro(a) de IA Ética (Match: 50.0%)
+ Carreira: Engenheiro(a) de IA Ética (Match: 50.0%)
    Descrição: Projeta sistemas de IA que são justos, transparentes e responsáveis.
-   🌱 Trilhas de Aprimoramento (2):
+    Trilhas de Aprimoramento (2):
       - Logica (Necessário: 5 / Atual: 4)
       - Pensamento_critico (Necessário: 5 / Atual: 3)
 ```
